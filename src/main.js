@@ -10,3 +10,10 @@ document.getElementById("boiling-temp").innerHTML = boilingF();
 var freezingF;
 freezingF = () => "32";
 document.getElementById("freezing-temp").innerHTML = freezingF();
+
+
+// Part iii - Print any number using an arrow function
+
+var waterTemp;
+waterTemp = () => "74";
+document.getElementById("water-temp").innerHTML = waterTemp();
