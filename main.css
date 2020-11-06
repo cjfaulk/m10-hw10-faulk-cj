@@ -49,6 +49,11 @@ main h2, main span {
   color: #fc9303;
 }
 
+main span {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
 #constant {
   margin: 30px 0;
 }
