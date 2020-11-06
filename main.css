@@ -67,6 +67,7 @@ main {
 
 footer {
   background-color: #7bd3f7;
-  margin-top: 30px;
-  padding: 20px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  color: white;
 }

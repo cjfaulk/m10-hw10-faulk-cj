@@ -17,3 +17,10 @@ document.getElementById("freezing-temp").innerHTML = freezingF();
 var waterTemp;
 waterTemp = () => "74";
 document.getElementById("water-temp").innerHTML = waterTemp();
+
+
+// use setTimeout() to display footer content
+
+setTimeout(function() {
+  document.getElementById("good-temp").classList.add("show");
+}, 3000);
