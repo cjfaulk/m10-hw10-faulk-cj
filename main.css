@@ -45,11 +45,12 @@ header img {
 
 /* ---- Main Styling ---  */
 
-main h2, main span {
+main h2 {
   color: #fc9303;
 }
 
 main span {
+  color: #58a0c3;
   font-weight: bold;
   font-size: 1.25rem;
 }
