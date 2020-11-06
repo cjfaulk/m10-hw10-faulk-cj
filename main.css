@@ -1,8 +1,66 @@
-
+/* ---- General Styling ---  */
 .hide {
   opacity: 0;
 }
 .show {
   opacity: 1;
   transition: opacity 1s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ---- Body Styling ---  */
+
+body {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* ---- Header Styling ---  */
+
+header {
+  background-color: #7bd3f7;
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  padding: 30px;
+}
+
+header img {
+  width: 40%;
+  max-width: 150px;
+}
+
+/* ---- Main Styling ---  */
+
+main h2, main span {
+  color: #fc9303;
+}
+
+#constant {
+  margin: 30px 0;
+}
+
+main {
+  flex: 1;
+}
+
+/* ---- Footer Styling ---  */
+
+footer {
+  background-color: #7bd3f7;
+  margin-top: 30px;
+  padding: 20px;
 }
